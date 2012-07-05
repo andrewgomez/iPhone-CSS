@@ -1,0 +1,143 @@
+/******************************************************************
+iPhone CSS
+******************************************************************/
+.iphone { 
+  font-size: 2px; /* edit this to change the size of the iPhone */
+  
+  position: relative; 
+  background: -webkit-linear-gradient(left, #8e8e8e 0%, #f2f2f2 8%, #c1c1c1 15%, #8e8e8e 50%, #c1c1c1 85%, #f2f2f2 92%, #8e8e8e 100%);
+  box-shadow: inset 0em .5em 0em rgba(255,255,255,.5),
+              0em 3em 3em rgba(0,0,0,.45);
+  width: 60em;
+  height: 114em;
+  border-radius: 6em;
+  z-index: 1;
+}
+  
+  .white:before {
+    content: '';
+    position: absolute;
+    background: -webkit-linear-gradient(-30deg, #efefef 0%, #ffffff 41.5%, #efefef 42.5%);
+    width: 57em;
+    height: 111em;
+    margin: .5em 1em;
+    border-radius: 5em;
+    border: .5em solid rgba(0,0,0,0.3);
+    box-shadow: 0em .5em 1em rgba(0,0,0,.8);
+    z-index: 2;
+  }
+  
+  .black:before {
+    content: '';
+    position: absolute;
+    background: -webkit-linear-gradient(-30deg, #0e0e0e 0%, #3b3b3b 41.5%, #0e0e0e 42.5%);
+    width: 57em;
+    height: 111em;
+    margin: .5em 1em;
+    border-radius: 5em;
+    border: .5em solid rgba(0,0,0,0.3);
+    box-shadow: 0em .5em 1em rgba(0,0,0,.8);
+    z-index: 2;
+  }
+  
+  .iphone:after {
+    content: '';
+    position: absolute;
+    background-color: #0e0e0e;
+    background-image: -webkit-linear-gradient(-30deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.15) 40%, rgba(255,255,255,0.05) 41%, rgba(255,255,255,0.1) 100%);
+    width: 52em;
+    height: 78em;
+    top: 16em;
+    left: 3.5em;
+    border-radius: 1.5em;
+    border: .5em solid rgba(0,0,0,1);
+    box-shadow: 0em .5em .5em rgba(255,255,255,.25);
+    z-index: 3;
+  }
+  
+  .white div:first-child {
+    position: absolute;
+    bottom: 5em;
+    left: 24.5em;
+    width: 11em;
+    height: 11em;
+    border-radius: 5.5em;
+    background: -webkit-linear-gradient(#cacaca 0%, #ffffff 100%);
+    box-shadow: inset 0em .5em 1.5em rgba(0,0,0,.1);
+    z-index: 4;
+  }
+  
+  .black div:first-child {
+    position: absolute;
+    bottom: 5em;
+    left: 24.5em;
+    width: 11em;
+    height: 11em;
+    border-radius: 5.5em;
+    background: -webkit-linear-gradient(#0e0e0e 0%, #3b3b3b 100%);
+    box-shadow: inset 0em .5em 1.5em rgba(0,0,0,.1);
+    z-index: 4;
+  }
+  
+    .iphone div:first-child:before {
+      content: '';
+      position: absolute;
+      top: -90em;
+      width: 11em;
+      height: 2.5em;
+      border-radius: 1.5em;
+      background: #636363;
+      box-shadow: inset 0px .5px .5px rgba(0,0,0,1),
+                  0em .5em .5em rgba(255,255,255,1);
+      z-index: 4;
+    }
+    
+    .iphone div:first-child:after {
+      content: '';
+      position: absolute;
+      top: 4em;
+      left: 4em;
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 1em;
+      border: solid #a3a3a3 .5em;
+      z-index: 5;
+    }
+    
+  .iphone div:last-child {
+    position: absolute;
+    top: 9.5em;
+    left: -.5em;
+    width: .5em;
+    height: 5em;
+    border-radius: .5em;
+    background: -webkit-linear-gradient(#8e8e8e 0%, #f2f2f2 8%, #c1c1c1 15%, #8e8e8e 50%, #c1c1c1 85%, #f2f2f2 92%, #8e8e8e 100%);
+    box-shadow: -.5em .5em 1.5em rgba(0,0,0,.45);
+    z-index: 0;
+  }
+  
+    .iphone div:last-child:before {
+      content: '';
+      position: absolute;
+      top: 12.5em;
+      left: 0em;
+      width: .5em;
+      height: 3em;
+      border-radius: .5em;
+      background: -webkit-linear-gradient(#8e8e8e 0%, #f2f2f2 8%, #4b4b4b 60%, #4b4b4b 85%, #f2f2f2 92%, #8e8e8e 100%);
+      box-shadow: -.5em .5em 1.5em rgba(0,0,0,.45);
+      z-index: 0;
+    }
+    
+    .iphone div:last-child:after {
+      content: '';
+      position: absolute;
+      top: 23em;
+      left: 0em;
+      width: .5em;
+      height: 3em;
+      border-radius: .5em;
+      background: -webkit-linear-gradient(#8e8e8e 0%, #f2f2f2 8%, #4b4b4b 60%, #4b4b4b 85%, #f2f2f2 92%, #8e8e8e 100%);
+      box-shadow: -.5em .5em 1.5em rgba(0,0,0,.45);
+      z-index: 0;
+    }
